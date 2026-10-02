@@ -13,8 +13,9 @@
 <meta name="theme-color" content="#0A0F1C">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='19,42 15,14 42,28' fill='%234F8EF7' stroke='%234F8EF7' stroke-width='5' stroke-linejoin='round'/%3E%3Cpolygon points='81,42 85,14 58,28' fill='%234F8EF7' stroke='%234F8EF7' stroke-width='5' stroke-linejoin='round'/%3E%3Crect x='42' y='12' width='16' height='8' rx='3' fill='%234F8EF7'/%3E%3Crect x='46' y='18' width='8' height='9' fill='%234F8EF7'/%3E%3Ccircle cx='50' cy='60' r='33' fill='%234F8EF7'/%3E%3Ccircle cx='50' cy='60' r='25' fill='%231B1C33'/%3E%3Cg stroke='%23fff' stroke-width='6' stroke-linecap='round'%3E%3Cline x1='50' y1='60' x2='50' y2='43'/%3E%3Cline x1='50' y1='60' x2='62' y2='67'/%3E%3C/g%3E%3C/svg%3E">
 <!--
-  Zeitfuchs-Landingpage. Eine Datei, keine externen Skripte, Schriften oder Tracker
-  (DSGVO-freundlich). Bilder und Videos liegen in assets/.
+  Zeitfuchs-Landingpage. Eine Datei, keine externen Schriften; einziges externes Skript ist
+  die optionale, cookielose Besucherstatistik GoatCounter (GOATCOUNTER unten im Skript).
+  Bilder und Videos liegen in assets/.
 
   VOR DEM VERÖFFENTLICHEN:
   1. FEEDBACK unten im Skript setzen (Google-Forms- oder Formspree-Adresse und Feldnamen,
@@ -597,6 +598,19 @@
     url: 'https://docs.google.com/forms/d/e/1FAIpQLScuvjpjf8QZRvtlpkjh5gVMXlaQV4TtXfVSNE1vkve3n_TSnw/formResponse',
     fields: { kategorie: 'entry.1692699346', nachricht: 'entry.326175563', name: 'entry.418683733', email: 'entry.277478799', version: 'entry.1904030854' },
   };
+
+  // Besucherstatistik ohne Cookies (GoatCounter). Leer = keine Statistik.
+  // Nach dem Anlegen eines Kontos auf goatcounter.com den Code eintragen, z. B. 'zeitfuchs'.
+  const GOATCOUNTER = '';
+  if (GOATCOUNTER) {
+    const gc = document.createElement('script');
+    gc.async = true; gc.src = 'https://gc.zgo.at/count.js';
+    gc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+    document.head.appendChild(gc);
+    // Klicks auf "Herunterladen" als eigenes Ereignis zählen
+    document.querySelectorAll('.js-download').forEach(a => a.addEventListener('click', () =>
+      window.goatcounter?.count?.({ path: 'download-setup', title: 'Download Installer', event: true })));
+  }
 
   // Hochformat-Video auf schmalen Bildschirmen
   (() => {

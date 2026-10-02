@@ -21,7 +21,7 @@ Gemacht für alle, die Zeit für **mehrere Projekte oder Kund:innen** erfassen m
 
 ## PC an. Zeitfuchs läuft.
 
-Kein Start-Knopf, kein Stempeln. Bis du ein Projekt wählst, sammelt sich die Zeit unter „Ohne Zuordnung“. Wechseln kannst du per Tastenkürzel (**Strg+Alt+1–9**, **Strg+Alt+0** hält an), im Tray-Menü oder unten links im Hauptfenster.
+Kein Start-Knopf, kein Stempeln. Bis du ein Projekt wählst, sammelt sich die Zeit unter „Ohne Zuordnung“. Gewechselt wird mit einem Klick – im Taskleisten-Widget, im Tray-Menü oder unten links im Hauptfenster.
 
 <p align="center"><img src="docs/images/dashboard.webp" alt="Dashboard mit Zeitkonto, Todos und Budget-Tachos" width="820"></p>
 

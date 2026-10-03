@@ -369,6 +369,7 @@
           <ul>
             <li><svg><use href="#i-dot"/></svg><span><b>Nachträglich zuordnen</b> mit einem Klick – oder zehn Minuten schlummern lassen.</span></li>
             <li><svg><use href="#i-dot"/></svg><span><b>Abwesenheit erkannt:</b> Nach Standby oder Pause entscheidest du, ob die Zeit zählt.</span></li>
+            <li><svg><use href="#i-dot"/></svg><span><b>Notiz beim Wechsel:</b> Kurz eintippen, woran du arbeitest – Enter, fertig. Optional und abschaltbar.</span></li>
           </ul>
         </div>
         <div class="stage reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:end">
@@ -404,7 +405,7 @@
         <div class="text reveal">
           <p class="kicker">Abrechnen</p>
           <h2>Jede Stunde <span class="acc">abrechenbar.</span></h2>
-          <p class="lead">Die Wochenübersicht zeigt pro Tag Arbeitsbeginn, Feierabend, Gesamtzeit und eine Spalte je Projekt. Ein Klick exportiert alles als CSV – für Excel, deine Rechnung oder das System deiner Firma.</p>
+          <p class="lead">Die Wochenübersicht zeigt pro Tag Arbeitsbeginn, Feierabend, Gesamtzeit und eine Spalte je Projekt. Der Export nimmt jeden Zeitraum und jedes Projekt – mit Rundung, Dezimalstunden und auf Wunsch jedem Eintrag samt Notiz. Für Excel, deine Rechnung oder das System deiner Firma.</p>
           <ul>
             <li><svg><use href="#i-dot"/></svg><span><b>Urlaub, Krankheit, Feiertag, frei</b> direkt in der Zeile markieren.</span></li>
             <li><svg><use href="#i-dot"/></svg><span><b>Überstundenkonto</b> wird jede Woche automatisch abgerechnet.</span></li>
@@ -425,7 +426,7 @@
           <h2>Tickets, Todos <span class="acc">& Budgets.</span></h2>
           <p class="lead">Ein Board für deine Aufgaben, Todos mit Fälligkeit – direkt neben deiner Zeiterfassung, ohne zweites Tool.</p>
           <ul>
-            <li><svg><use href="#i-dot"/></svg><span><b>Ticket-Board</b> mit Offen, In Bearbeitung, PR und Ausgeliefert – mit Priorität, Link, Version und Verlauf.</span></li>
+            <li><svg><use href="#i-dot"/></svg><span><b>Ticket-Board mit eigenen Spalten</b> – Anzahl, Namen und Farben legst du selbst fest. Mit Priorität, Link und Verlauf.</span></li>
             <li><svg><use href="#i-dot"/></svg><span><b>Todos</b> mit Datum und Projekt, sichtbar im Dashboard und Kalender.</span></li>
           </ul>
         </div>
@@ -487,8 +488,8 @@
         <div class="cell reveal"><svg><use href="#i-bell"/></svg><h3>Erinnerung</h3><p>Meldet sich, wenn Zeit keinem Projekt zugeordnet ist.</p></div>
         <div class="cell reveal"><svg><use href="#i-moon"/></svg><h3>Abwesenheit erkannt</h3><p>Standby und Pausen werden erkannt, du entscheidest.</p></div>
         <div class="cell reveal"><svg><use href="#i-cal"/></svg><h3>Kalender</h3><p>Monat, Woche, Tag – mit Projektfilter und Fristen.</p></div>
-        <div class="cell reveal"><svg><use href="#i-edit"/></svg><h3>Tagesdetail</h3><p>Abschnitte, Notizen, Arbeitsbeginn und Feierabend korrigieren.</p></div>
-        <div class="cell reveal"><svg><use href="#i-file"/></svg><h3>CSV-Export</h3><p>Die Woche mit einem Klick als Tabelle.</p></div>
+        <div class="cell reveal"><svg><use href="#i-edit"/></svg><h3>Notizen</h3><p>Beim Wechsel kurz festhalten, woran du arbeitest.</p></div>
+        <div class="cell reveal"><svg><use href="#i-file"/></svg><h3>Flexibler Export</h3><p>Zeitraum, Projekte und Rundung frei wählbar.</p></div>
         <div class="cell reveal"><svg><use href="#i-scale"/></svg><h3>Überstundenkonto</h3><p>Wochen-Soll, Arbeitstage, Urlaub und Feiertage inklusive.</p></div>
         <div class="cell reveal"><svg><use href="#i-gauge"/></svg><h3>Projektbudgets</h3><p>Stundenbudget je Projekt mit Tacho im Dashboard.</p></div>
         <div class="cell reveal"><svg><use href="#i-ticket"/></svg><h3>Tickets & Todos</h3><p>Board mit Verlauf, Todos mit Fälligkeit.</p></div>
@@ -525,7 +526,7 @@
         <details><summary>Wo liegen meine Daten?</summary><p>In einer Datenbank in deinem Windows-Benutzerordner (unter AppData\Local\ZeitfuchsData). Den genauen Speicherort zeigen dir die Einstellungen. Die Daten verlassen deinen Rechner nicht.</p></details>
         <details><summary>Muss ich jedes Mal auf Start drücken?</summary><p>Nein. Mit „Mit Windows starten“ läuft Zeitfuchs ab dem Einschalten mit. Du wählst nur noch das Projekt – im Widget oder im Tray-Menü.</p></details>
         <details><summary>Was passiert, wenn ich vergesse umzuschalten?</summary><p>Dein aktuelles Projekt steht immer im Taskleisten-Widget. Läuft Zeit ohne Projekt, erinnert dich Zeitfuchs. Und im Tagesdetail kannst du jeden Abschnitt nachträglich einem anderen Projekt zuordnen.</p></details>
-        <details><summary>Wie bekomme ich meine Stunden in die Rechnung oder ins Firmensystem?</summary><p>Über den CSV-Export in der Wochenübersicht. Die Datei öffnest du in Excel oder übernimmst sie in jedes Programm, das CSV lesen kann.</p></details>
+        <details><summary>Wie bekomme ich meine Stunden in die Rechnung oder ins Firmensystem?</summary><p>Über „Exportieren“ in der Wochenübersicht: Zeitraum und Projekte wählen, auf Wunsch auf 15 Minuten runden – fertig ist die CSV-Datei für Excel, deine Rechnung oder jedes Programm, das CSV lesen kann.</p></details>
         <details><summary>Bekomme ich Updates?</summary><p>Ja, automatisch. Zeitfuchs meldet sich, sobald eine neue Version bereitliegt. Deine Daten bleiben dabei erhalten.</p></details>
         <details><summary>Windows warnt beim Installieren – ist das normal?</summary><p>Windows SmartScreen warnt bei Programmen, die noch nicht oft heruntergeladen wurden. Über „Weitere Informationen“ und „Trotzdem ausführen“ geht es weiter. Der Installer kommt direkt aus dem offiziellen GitHub-Repository.</p></details>
       </div>

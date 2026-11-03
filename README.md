@@ -89,6 +89,11 @@ Updates kommen automatisch – Zeitfuchs meldet sich, sobald eine neue Version b
 
 Zeitfuchs speichert alles lokal in deinem Windows-Benutzerordner (`%LOCALAPPDATA%\ZeitfuchsData`). Es gibt kein Konto und keinen Server, der deine Zeiten sieht. Die App verbindet sich nur mit GitHub, um nach Updates zu suchen – und mit Google Forms, wenn du selbst Feedback abschickst.
 
+## Sicherheit und Lizenzen
+
+Sicherheitslücke gefunden? Bitte vertraulich melden – wie, steht in [SECURITY.md](SECURITY.md).
+Zeitfuchs nutzt Bibliotheken Dritter; ihre Lizenzen und eine Software-Stückliste (SBOM) liegen jeder Installation bei und sind in der App unter **Einstellungen → Lizenzen und Rechtliches** zu sehen.
+
 ## Feedback
 
 Fehlt dir etwas? In der App gibt es links in der Seitenleiste den Punkt **Feedback** – auf Wunsch anonym. Ich lese jede Nachricht.

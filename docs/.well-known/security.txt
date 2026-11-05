@@ -1,0 +1,4 @@
+Contact: mailto:linalarsson.dev@gmail.com
+Expires: 2027-11-03T00:00:00.000Z
+Preferred-Languages: de, en
+Policy: https://github.com/LinaLarsson42/zeitfuchs-releases/blob/main/SECURITY.md

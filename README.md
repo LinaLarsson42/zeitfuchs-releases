@@ -55,13 +55,13 @@ Der Kalender zeigt deine Zeiten als Monat, Woche oder Tag – farbig nach Projek
 
 ## Jede Stunde abrechenbar.
 
-Die Wochenübersicht zeigt pro Tag Arbeitsbeginn, Feierabend, Gesamtzeit und eine Spalte je Projekt. Urlaub, Krankheit und Feiertage markierst du direkt in der Zeile, das Überstundenkonto rechnet jede Woche automatisch ab. Ein Klick auf **CSV exportieren** – fertig für Excel, die Rechnung oder das System deiner Firma.
+Die Wochenübersicht zeigt pro Tag Arbeitsbeginn, Feierabend, Gesamtzeit und eine Spalte je Projekt. Urlaub, Krankheit und Feiertage markierst du direkt in der Zeile, das Überstundenkonto rechnet jede Woche automatisch ab. Über **Exportieren …** wählst du Zeitraum, Projekte und Inhalt – Tagesübersicht, Tätigkeitsnachweis mit Notizen, Projektsummen oder alles zusammen als Komplettbericht. Als aufbereitetes **PDF** zum Weitergeben, als **Excel**-Tabelle zum Weiterrechnen oder als **CSV** für das System deiner Firma; auf Wunsch mit Wochensummen, Soll/Ist-Vergleich und Unterschriftsfeld.
 
-<p align="center"><img src="docs/images/overview.webp" alt="Wochenübersicht mit CSV-Export" width="820"></p>
+<p align="center"><img src="docs/images/overview.webp" alt="Wochenübersicht mit Export" width="820"></p>
 
-## Tickets, Todos & Budgets
+## Tickets, Todos, Merkzettel & Budgets
 
-Ein Ticket-Board (Offen, In Bearbeitung, PR, Ausgeliefert) mit Priorität, Link, Version und Verlauf, Todos mit Fälligkeit und ein Stundenbudget je Projekt mit Tacho im Dashboard.
+Ein Ticket-Board (Offen, In Bearbeitung, PR, Ausgeliefert) mit Priorität, Link, Version und Verlauf, Todos mit Fälligkeit, ein Stundenbudget je Projekt mit Tacho im Dashboard – und **Merkzettel** für alles Schnelle zwischendurch: beliebig viele Zettel als Tabs, mit Formatierung, Listen und Screenshots, automatisch gespeichert.
 
 <p align="center"><img src="docs/images/tickets.webp" alt="Ticket-Board" width="820"></p>
 
@@ -88,6 +88,11 @@ Updates kommen automatisch – Zeitfuchs meldet sich, sobald eine neue Version b
 ## Deine Daten
 
 Zeitfuchs speichert alles lokal in deinem Windows-Benutzerordner (`%LOCALAPPDATA%\ZeitfuchsData`). Es gibt kein Konto und keinen Server, der deine Zeiten sieht. Die App verbindet sich nur mit GitHub, um nach Updates zu suchen – und mit Google Forms, wenn du selbst Feedback abschickst.
+
+## Sicherheit und Lizenzen
+
+Sicherheitslücke gefunden? Bitte vertraulich melden – wie, steht in [SECURITY.md](SECURITY.md).
+Zeitfuchs nutzt Bibliotheken Dritter; ihre Lizenzen und eine Software-Stückliste (SBOM) liegen jeder Installation bei und sind in der App unter **Einstellungen → Lizenzen und Rechtliches** zu sehen.
 
 ## Feedback
 
